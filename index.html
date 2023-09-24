@@ -35,6 +35,11 @@
             <li><a href="" class="header-list-items link">Contacts</a></li>
           </ul>
         </nav>
+        <button class="mobile-btn-burger">
+          <svg class="mobile-svg-btn" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="address">
           <ul class="address-list list">
             <li class="address-list-items">
@@ -122,7 +127,8 @@
           <ul class="team-list list">
             <li class="team-list-items">
               <img
-                src="./images/mark.jpg"
+                srcset="./images/image1@2x.jpg 2x"
+                src="./images/image1.jpg"
                 alt="bearded-man-in-shirt"
                 width="264"
                 class="team-img"
@@ -164,7 +170,8 @@
             </li>
             <li class="team-list-items">
               <img
-                src="./images/tom.jpg"
+                srcset="./images/image2@2x.jpg 2x"
+                src="./images/image2.jpg"
                 alt="man-in-shirt"
                 width="264"
                 class="team-img"
@@ -206,7 +213,8 @@
             </li>
             <li class="team-list-items">
               <img
-                src="./images/camila.jpg"
+                srcset="./images/image3@2x.jpg 2x"
+                src="./images/image3.jpg"
                 alt="woman-in-pink-sweater"
                 width="264"
                 class="team-img"
@@ -248,7 +256,8 @@
             </li>
             <li class="team-list-items">
               <img
-                src="./images/daniel.jpg"
+                srcset="./images/image4@2x.jpg 2x"
+                src="./images/image4.jpg"
                 alt="man-in-t-shirt"
                 width="264"
                 class="team-img"
@@ -299,7 +308,16 @@
             <li class="portfolio-list-items">
               <div class="portfolio-card-text-cont">
                 <img
-                  src="./images/banking-app.jpg"
+                  srcset="
+                    ./images/mobile-img-one.jpg    288w,
+                    ./images/mobile-img-one@2x.jpg 576w,
+                    ./images/tablet-img-one.jpg    356w,
+                    ./images/tablet-img-one@2x.jpg 712w,
+                    ./images/img-one.jpg           360w,
+                    ./images/img-one@2x.jpg        720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-one.jpg"
                   alt="Preview banking app"
                   width="360"
                   class="portfolio-img"
@@ -318,7 +336,17 @@
             <li class="portfolio-list-items">
               <div class="portfolio-card-text-cont">
                 <img
-                  src="./images/cashless-payment.jpg"
+                  srcset="
+                    ./images/mobile-img-two.jpg    288w,
+                    ./images/mobile-img-two@2x.jpg 576w,
+                    ./images/tablet-img-two.jpg    356w,
+                    ./images/tablet-img-two@2x.jpg 712w,
+                    ./images/img-two.jpg           360w,
+                    ./images/img-two@2x.jpg        720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  class="portfolio-photo"
+                  src="./images/img-two.jpg"
                   alt="Phone with NFS"
                   width="360"
                   class="portfolio-img"
@@ -337,7 +365,16 @@
             <li class="portfolio-list-items">
               <div class="portfolio-card-text-cont">
                 <img
-                  src="./images/meditation-app.jpg"
+                  srcset="
+                    ./images/mobile-img-three.jpg    288w,
+                    ./images/mobile-img-three@2x.jpg 576w,
+                    ./images/tablet-img-three.jpg    356w,
+                    ./images/tablet-img-three@2x.jpg 712w,
+                    ./images/img-three.jpg           360w,
+                    ./images/img-three@2x.jpg        720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-three.jpg"
                   alt="Notebook with meditation app"
                   width="360"
                   class="portfolio-img"
@@ -356,7 +393,16 @@
             <li class="portfolio-list-items">
               <div class="portfolio-card-text-cont">
                 <img
-                  src="./images/taxi-service.jpg"
+                  srcset="
+                    ./images/mobile-img-four.jpg    288w,
+                    ./images/mobile-img-four@2x.jpg 576w,
+                    ./images/tablet-img-four.jpg    356w,
+                    ./images/tablet-img-four@2x.jpg 712w,
+                    ./images/img-four.jpg           360w,
+                    ./images/img-four@2x.jpg        720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-four.jpg"
                   alt="Taxi driver in thr car"
                   width="360"
                   class="portfolio-img"
@@ -375,7 +421,16 @@
             <li class="portfolio-list-items">
               <div class="portfolio-card-text-cont">
                 <img
-                  src="./images/screen-illustration.jpg"
+                  srcset="
+                    ./images/mobile-img-five.jpg    288w,
+                    ./images/mobile-img-five@2x.jpg 576w,
+                    ./images/tablet-img-five.jpg    356w,
+                    ./images/tablet-img-five@2x.jpg 712w,
+                    ./images/img-five.jpg           360w,
+                    ./images/img-five@2x.jpg        720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-five.jpg"
                   alt="Phone with screen illustration"
                   width="360"
                   class="portfolio-img"
@@ -394,7 +449,16 @@
             <li class="portfolio-list-items">
               <div class="portfolio-card-text-cont">
                 <img
-                  src="./images/online-courses.jpg"
+                  srcset="
+                    ./images/mobile-img-six.jpg    288w,
+                    ./images/mobile-img-six@2x.jpg 576w,
+                    ./images/tablet-img-six.jpg    356w,
+                    ./images/tablet-img-six@2x.jpg 712w,
+                    ./images/img-six.jpg           360w,
+                    ./images/img-six@2x.jpg        720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-six.jpg"
                   alt="Women in online courses"
                   width="360"
                   class="portfolio-img"
@@ -415,70 +479,73 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-cont">
-        <div class="footer-logo-text-cont">
-          <a href="" class="footer-logo link"
-            ><span class="footer-logo-span link">Web</span>Studio</a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-social-cont">
-          <p class="footer-social-text">Social media</p>
-          <ul class="footer-list list">
-            <li class="footer-list-items">
-              <a href="" class="footer-list-link link">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
+      <div class="tablet-footer-container">
+        <div class="container footer-cont">
+          <div class="footer-logo-text-cont">
+            <a href="" class="footer-logo link"
+              ><span class="footer-logo-span link">Web</span>Studio</a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-social-cont">
+            <p class="footer-paragraph">Social media</p>
+            <ul class="footer-list list">
+              <li class="footer-list-items">
+                <a href="" class="footer-list-link link">
+                  <svg class="footer-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a href="" class="footer-list-link link">
+                  <svg class="footer-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a href="" class="footer-list-link link">
+                  <svg class="footer-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a href="" class="footer-list-link link">
+                  <svg class="footer-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-form-cont">
+            <p class="footer-paragraph">Subscribe</p>
+            <form class="footer-form" name="footer-form">
+              <label class="footer-label-input">
+                <input
+                  class="footer-email-input"
+                  type="email"
+                  name="email-address"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button class="footer-form-btn" type="submit">
+                Subscribe
+                <svg class="footer-form-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame-3"></use>
                 </svg>
-              </a>
-            </li>
-            <li class="footer-list-items">
-              <a href="" class="footer-list-link link">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list-items">
-              <a href="" class="footer-list-link link">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list-items">
-              <a href="" class="footer-list-link link">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-form-cont">
-          <p class="footer-paragraph">Subscribe</p>
-          <form class="footer-form" name="footer-form">
-            <label class="footer-label-input">
-              <input
-                class="footer-email-input"
-                type="email"
-                name="email-address"
-                placeholder="E-mail"
-              />
-            </label>
-            <button class="footer-form-btn" type="submit">
-              Subscribe
-              <svg class="footer-form-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame-3"></use>
-              </svg>
-            </button>
-          </form>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+    <!---------MODAL_FORM--------->
     <div class="modal-cont is-open">
       <div class="modal">
         <button class="modal-btn" type="button">
@@ -487,7 +554,7 @@
           </svg>
         </button>
         <p class="modal-p">Leave your contacts and we will call you back</p>
-        <form>
+        <form class="form">
           <div class="form-cont">
             <label class="form-label" for="user-name">Name</label>
             <div class="input-icon-cont">
@@ -559,6 +626,75 @@
           </div>
           <button type="submit" class="form-btn">Send</button>
         </form>
+      </div>
+    </div>
+    <!---------MOBILE_MENU-------->
+    <div class="mobile-menu">
+      <button class="mobile-close-button" type="button">
+        <svg class="send-form-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-navigation">
+        <ul class="mobile-link-list list">
+          <li>
+            <a
+              href="./index.html"
+              class="mobile-nav-link link first-mobile-nav-link"
+              >Studio</a
+            >
+          </li>
+          <li><a href="" class="mobile-nav-link link">Portfolio</a></li>
+          <li><a href="" class="mobile-nav-link link">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-container">
+        <address class="mobile-contacts">
+          <ul class="mobile-contacts-list list">
+            <li>
+              <a
+                href="tel:+110001111111"
+                class="mobile-contacts mobile-number link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="mobile-contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-icons-list list">
+          <li class="footer-list-items">
+            <a href="#" class="footer-social-link link">
+              <svg width="24" height="24" class="footer-icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-items">
+            <a href="#" class="footer-social-link link">
+              <svg width="24" height="24" class="footer-icon">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-items">
+            <a href="#" class="footer-social-link link">
+              <svg width="24" height="24" class="footer-icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-items">
+            <a href="#" class="footer-social-link link">
+              <svg width="24" height="24" class="footer-icon">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
